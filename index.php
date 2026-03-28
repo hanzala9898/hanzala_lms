@@ -306,7 +306,7 @@
     <?php
     include('db.php');
 
-
+    //test change
     $query = "SELECT COUNT(id) as total FROM students";
     $result = mysqli_query($conn, $query);
     $row = mysqli_fetch_assoc($result);
